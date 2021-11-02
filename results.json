@@ -1,0 +1,50 @@
+{
+  "excluded": [],
+  "failed": [],
+  "invalid": [],
+  "passed": [
+    {
+      "describe": "parse_file/1",
+      "file": "/mnt/e/dev/elixir/elixir-gen-reports/test/parser_test.exs",
+      "line": 7,
+      "module": "Elixir.GenReport.ParserTest",
+      "test": "test parse_file/1 parses the file"
+    },
+    {
+      "describe": "build_from_many/1",
+      "file": "/mnt/e/dev/elixir/elixir-gen-reports/test/gen_report_test.exs",
+      "line": 25,
+      "module": "Elixir.GenReportTest",
+      "test": "test build_from_many/1 When passing a file list, returns a report"
+    },
+    {
+      "describe": "build_from_many/1",
+      "file": "/mnt/e/dev/elixir/elixir-gen-reports/test/gen_report_test.exs",
+      "line": 37,
+      "module": "Elixir.GenReportTest",
+      "test": "test build_from_many/1 When the provided input is not a list, returns an error"
+    },
+    {
+      "describe": "build/1",
+      "file": "/mnt/e/dev/elixir/elixir-gen-reports/test/gen_report_test.exs",
+      "line": 17,
+      "module": "Elixir.GenReportTest",
+      "test": "test build/1 When no filename was given, returns an error"
+    },
+    {
+      "describe": "build/1",
+      "file": "/mnt/e/dev/elixir/elixir-gen-reports/test/gen_report_test.exs",
+      "line": 11,
+      "module": "Elixir.GenReportTest",
+      "test": "test build/1 When passing file name return a report"
+    },
+    {
+      "describe": "build_from_many/1",
+      "file": "/mnt/e/dev/elixir/elixir-gen-reports/test/gen_report_test.exs",
+      "line": 31,
+      "module": "Elixir.GenReportTest",
+      "test": "test build_from_many/1 When a file list is not provided, returns an error"
+    }
+  ],
+  "skiped": []
+}
